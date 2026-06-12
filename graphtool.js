@@ -786,9 +786,12 @@ const sampnums = typeof num_samples !== "undefined" ? d3.range(1,num_samples+1)
                                                     : [""];
 function loadFiles(p, callback) {
     let l = f => d3.text(DIR+f+".txt").catch(()=>null);
-    let f = p.isTarget ? [l("_targets/" +p.fileName)]
+    
+    /* CLEANEST FIX: Encodes the space into a web-safe %20 exactly when requesting the file */
+    let f = p.isTarget ? [l("_targets/" + encodeURIComponent(p.fileName))]
           : d3.merge(LR.map(s =>
                 sampnums.map(n => l(p.fileName+" "+s+n))));
+                
     Promise.all(f).then(function (frs) {
         if (!frs.some(f=>f!==null)) {
             alert("Headphone not found!");
@@ -797,7 +800,7 @@ function loadFiles(p, callback) {
             ch = ch.filter(c => c !== null);
             callback(ch);
         }
-    });
+    }); // Just making sure the closing bracket matches your file!
 }
 let validChannels = p => p.channels.filter(c=>c!==null);
 let numChannels = p => d3.sum(p.channels, c=>c!==null);
