@@ -17,7 +17,7 @@ const init_phones = ["BKF"],            // Optional. Which graphs to display on 
       share_url = true,                             // If true, enables shareable URLs
       watermark_text = "WaitWhat.Audio",                 // Optional. Watermark appears behind graphs
       watermark_image_url = "",   // Optional. If image file is in same directory as config, can be just the filename
-      rig_description = "clone IEC 711",            // Optional. Labels the graph with a description of the rig used to make the measurement, e.g. "clone IEC 711"
+      rig_description = "IEC 60318-4 \"711\" Coupler",            // Optional. Labels the graph with a description of the rig used to make the measurement, e.g. "clone IEC 711"
       page_title = "WaitWhat.Audio",                     // Optional. Appended to the page title if share URLs are enabled
       page_description = "View and compare frequency response graphs for earphones",
       accessories = false,                          // If true, displays specified HTML at the bottom of the page. Configure further below
@@ -30,7 +30,7 @@ const init_phones = ["BKF"],            // Optional. Which graphs to display on 
       targetDashed = true,                         // If true, makes target curves dashed lines
       targetColorCustom = false,                    // If false, targets appear as a random gray value. Can replace with a fixed color value to make all targets the specified color, e.g. "black"
       targetRestoreLastUsed = false,				// Restore user's last-used target settings on load
-      labelsPosition = "bottom-right",              // Up to four labels will be grouped in a specified corner. Accepts "top-left," bottom-left," "bottom-right," and "default"
+      labelsPosition = "bottom-left",              // Up to four labels will be grouped in a specified corner. Accepts "top-left," bottom-left," "bottom-right," and "default"
       stickyLabels = true,                          // "Sticky" labels 
       analyticsEnabled = true,                     // Enables Google Analytics 4 measurement of site usage
       exportableGraphs = true,                      // Enables export graph button
@@ -69,8 +69,8 @@ const TARGET_DIR = "_targets/";
 // Set up the watermark, based on config options above
 function watermark(svg) {
    let wm = svg.append("g")
-        .attr("transform", "translate(" + (pad.l + 15) + "," + (pad.t + H - 15) + ")")
-        .attr("opacity", 0.2); // Made it slightly darker so it's readable at a small size
+        .attr("transform", "translate(" + (pad.l + W/2) + "," + (pad.t + H/2) + ")")
+        .attr("opacity", 0.15); // Made it slightly darker so it's readable at a small size
     
     //if ( watermark_image_url ) {
       //  wm.append("image")
@@ -80,10 +80,10 @@ function watermark(svg) {
     if ( watermark_text ) {
         wm.append("text")
             .attrs({
-                x: 20, 
-                y: -20, 
+                x: 0, 
+                y: 40, 
                 "font-size": 24,             // Shrunk the text size so it fits elegantly in the corner
-                "text-anchor": "start",      // Aligns text to the left edge
+                "text-anchor": "middle",      // Aligns text to the left edge
                 "font-weight": "bold",
                 "class": "graph-name"
             })
@@ -94,13 +94,13 @@ function watermark(svg) {
     if ( rig_description ) {
         wm.append("text")
             .attrs({
-                x: 20, 
-                y: -4,                       // Places the rig info directly below your custom name
-                "font-size": 14, 
-                "text-anchor": "start", 
+                x: 0, 
+                y: 58,                       // Places the rig info directly below your custom name
+                "font-size": 12, 
+                "text-anchor": "middle", 
                 "class": "rig-description"
             })
-            .text("Rig: " + rig_description);
+            .text(rig_description);
     }
 }
 

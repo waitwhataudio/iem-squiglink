@@ -3542,3 +3542,17 @@ rect#background {
     background-color: var(--background-color-graph) !important;
 }
 
+/* Adjust grid lines contextually to blend nicely into whatever mode is currently running */
+/* Sharp, Pixel-Perfect Grid Line Optimization */
+.grid path, 
+.grid line, 
+line.grid-line,
+.domain {
+    stroke: var(--font-color-primary) !important;
+    stroke-opacity: 0.12 !important;
+    
+    /* CRITICAL DE-BLUR PROPERTIES: */
+    stroke-width: 1px !important;            /* Locks the line path to exactly 1 pixel thick */
+    shape-rendering: crispEdges !important;   /* Disables anti-aliasing fuzziness, making lines pin-sharp */
+}
+
