@@ -20,7 +20,7 @@
     --font-color-secondary: hsl(0, 0%, 100%);
     --font-color-inputs: hsl(214, 16%, 45%);
     
-    --font-primary: 'Open Sans', sans-serif;
+    --font-primary: 'Inter', sans-serif;
     --font-secondary: monospace;
     
     --scrollbar-color: 255,255,255;
@@ -69,27 +69,33 @@ body.theme-dark {
 }
 
 body.theme-contrast {
-    --accent-color: hsl(0, 0%, 0%);
-    --accent-color-contrast: hsl(0, 0%, 0%);
+    /* High-contrast electric frost blue for unmistakable selections */
+    --accent-color: hsl(205, 100%, 45%);
+    --accent-color-contrast: hsl(225, 100%, 10%);
 
-    --background-color: hsl(0, 0%, 100%);
-    --background-color-contrast: hsl(0, 0%, 0%);
-    --background-color-contrast-more: hsl(0, 0%, 0%);
+    /* High-visibility stark ice background with pitch-black borders/sidebars */
+    --background-color: hsl(210, 60%, 98%);            /* Crisp, vivid glacial white */
+    --background-color-contrast: hsl(225, 70%, 5%);    /* Pure sub-zero midnight for menus (100% contrast boundary) */
+    --background-color-contrast-more: hsl(225, 70%, 2%);
+    
+    /* Pristine pure white canvas matrix to keep grid lines perfectly distinct */
     --background-color-graph: hsl(0, 0%, 100%);
     
     --background-color-inputs: hsl(0, 0%, 100%);
     
-    --font-color-primary: hsl(0, 0%, 0%);
-    --font-color-secondary: hsl(0, 0%, 100%);
-    --font-color-inputs: hsl(0, 0%, 0%);
+    /* Maximum legibility font pairings: Pitch black against ice, pure white against dark menus */
+    --font-color-primary: hsl(225, 80%, 4%);          /* Absolute high-contrast dark navy-black */
+    --font-color-secondary: hsl(0, 0%, 100%);          /* Stark white text for dark menus */
+    --font-color-inputs: hsl(225, 100%, 0%);
     
-    --font-primary: 'Open Sans', sans-serif;
+    --font-primary: 'Inter', sans-serif;
     --font-secondary: monospace;
     
     --scrollbar-color: 255,255,255;
     --scrollbar-accent: 0,0,0;
     
-    --header-color: hsl(215, 20%, 10%);
+    /* Stark dark header boundary */
+    --header-color: hsl(225, 70%, 4%);
     --header-links-color: hsl(0, 0%, 100%);
     --header-menu-icon-color: hsl(0, 0%, 100%);
     

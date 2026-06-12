@@ -1106,7 +1106,7 @@ try {
 }
 
 let ifURL = typeof share_url !== "undefined" && share_url;
-let baseTitle = typeof page_title !== "undefined" ? page_title : "CrinGraph";
+let baseTitle = typeof page_title !== "undefined" ? page_title : "WaitWhat.Audio";
 let baseDescription = typeof page_description !== "undefined" ? page_description : "View and compare frequency response graphs";
 let baseURL;  // Set by setInitPhones
 function addPhonesToUrl() {
@@ -1117,7 +1117,8 @@ function addPhonesToUrl() {
     
     if (names.length) {
         url += "?share=" + encodeURI(names.join().replace(/ /g,"_"));
-        title = namesCombined + " - " + title;
+        /* 👇 CHANGED: Puts your site title first, followed by the selected IEMs 👇 */
+        title = title + (namesCombined ? " | " + namesCombined : "");
     }
     if (names.length === 1) {
         targetWindow.document.querySelector("link[rel='canonical']").setAttribute("href",url)

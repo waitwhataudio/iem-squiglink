@@ -70,7 +70,7 @@ const TARGET_DIR = "_targets/";
 function watermark(svg) {
    let wm = svg.append("g")
         .attr("transform", "translate(" + (pad.l + 15) + "," + (pad.t + H - 15) + ")")
-        .attr("opacity", 0.4); // Made it slightly darker so it's readable at a small size
+        .attr("opacity", 0.2); // Made it slightly darker so it's readable at a small size
     
     //if ( watermark_image_url ) {
       //  wm.append("image")
@@ -200,22 +200,6 @@ const linkSets = [
     {
         label: "IEM graph databases",
         links: [
-            {
-                name: "Audio Discourse",
-                url: "https://iems.audiodiscourse.com/"
-            },
-            {
-                name: "Bad Guy",
-                url: "https://hbb.squig.link/"
-            },
-            {
-                name: "Banbeucmas",
-                url: "https://banbeu.com/graph/tool/"
-            },
-            {
-                name: "HypetheSonics",
-                url: "https://www.hypethesonics.com/iemdbc/"
-            },
             {
                 name: "In-Ear Fidelity",
                 url: "https://crinacle.com/graphs/iems/graphtool/"
