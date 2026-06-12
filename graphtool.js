@@ -785,12 +785,13 @@ let getO = i => LR.length>1 ? -1+i*2/(LR.length-1) : 0;
 const sampnums = typeof num_samples !== "undefined" ? d3.range(1,num_samples+1)
                                                     : [""];
 function loadFiles(p, callback) {
+    /* RESTORED: The native loader must append .txt automatically just like original CrinGraph */
     let l = f => d3.text(DIR+f+".txt").catch(()=>null);
     
-    /* CLEANEST FIX: Encodes the space into a web-safe %20 exactly when requesting the file */
+    /* SYSTEM FIX: Encodes only the file parameter string, preventing the folder slash / from breaking */
     let f = p.isTarget ? [l("_targets/" + encodeURIComponent(p.fileName))]
           : d3.merge(LR.map(s =>
-                sampnums.map(n => l(p.fileName+" "+s+n))));
+                sampnums.map(n => l(encodeURIComponent(p.fileName+" "+s)+n))));
                 
     Promise.all(f).then(function (frs) {
         if (!frs.some(f=>f!==null)) {
@@ -800,7 +801,7 @@ function loadFiles(p, callback) {
             ch = ch.filter(c => c !== null);
             callback(ch);
         }
-    }); // Just making sure the closing bracket matches your file!
+    }); // Handled closing braces safely
 }
 let validChannels = p => p.channels.filter(c=>c!==null);
 let numChannels = p => d3.sum(p.channels, c=>c!==null);
