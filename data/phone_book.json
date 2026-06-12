@@ -1,0 +1,316 @@
+[
+ {
+  "name": "7Hz",
+  "phones": [
+    {"name": "Aero",
+     "file": "7Hz/7Hz Aero"
+    },
+    {"name": "Diablo",
+     "file": "7Hz/7Hz Diablo"
+    },
+    {"name": "Divine",
+     "file": "7Hz/7Hz Divine"
+    },
+    {"name": "Elua",
+     "file": "7Hz/7Hz Elua"
+    },
+    {"name": "Elua Ultra",
+     "file": "7Hz/7Hz Elua Ultra"
+    },
+    {"name": "G1",
+     "file": "7Hz/7Hz G1"
+    },
+    {"name": "Timeless II",
+     "file": "7Hz/7Hz Timeless II"
+    },
+    {"name": "x Crinacle Salnotes Dioko",
+     "file": "7Hz/7Hz Dioko"
+    },
+    {"name": "Salnotes Zero",
+     "file": "7Hz/7Hz Zero"
+    },
+    {"name": "x Crinacle Zero:2",
+     "file": "7Hz/7Hz Zero2"
+    }
+  ]
+  },
+{
+  "name": "AFUL",
+  "phones": [
+    {
+      "name": "Explorer",
+      "file": "AFUL/AFUL Explorer"
+    }
+  ]
+},
+{
+  "name": "BGVP",
+  "phones": [
+    {
+      "name": "DM6",
+      "file": "BGVP/BGVP DM6"
+    }
+  ]
+},
+{
+  "name": "GK",
+  "phones": [
+    {
+      "name": "Kunten",
+      "file": "GK/GK Kunten"
+    },
+    {
+      "name": "Streak",
+      "file": "GK/GK Streak"
+    }    
+  ]
+},
+{
+  "name": "Hisenior",
+  "phones": [
+    {
+      "name": "Mega5est 7th Anniversary",
+      "file": "Hisenior/Hisenior Mega5EST 7th"
+    }
+  ]
+},
+{
+  "name": "HP",
+  "phones": [
+    {
+      "name": "DHE-7000",
+      "file": "HP/HP DHE-7000"
+    }
+  ]
+},
+{
+  "name": "Kefine",
+  "phones": [
+    {
+      "name": "Delci",
+      "file": "Kefine/Kefine Delci"
+    },
+    {
+      "name": "Klean",
+      "file": "Kefine/Kefine Klean"
+    },
+    {
+      "name": "Klean SV",
+      "file": "Kefine/Kefine Klean SV"
+    }        
+  ]
+},
+{
+  "name": "Kiwi Ears",
+  "phones": [
+    {
+      "name": "Astral",
+      "file": "Kiwi Ears/Kiwi Ears Astral"
+    }
+  ]
+},
+{
+  "name": "KZ",
+  "phones": [
+    {
+      "name": "AS16 Pro X",
+      "file": "KZ/KZ AS16ProX"
+    },
+    {
+      "name": "AS24 Pro",
+      "file": "KZ/KZ AS24 Pro"
+    },
+    {
+      "name": "Castor Pro Bass Edition",
+      "file": "KZ/KZ CastorProBE 0000"
+    },
+    {
+      "name": "PRX",
+      "file": "KZ/KZ PRX"
+    },
+    {
+      "name": "Sonata",
+      "file": "KZ/KZ Sonata"
+    },
+    {
+      "name": "Vader Pro",
+      "file": "KZ/KZ VaderPro 0000"
+    },           
+    {
+      "name": "ZAT",
+      "file": "KZ/KZ ZAT 0000"
+    },
+    {
+      "name": "ZS10 Pro 2",
+      "file": "KZ/KZ ZS10Pro2 0000"
+    }     
+  ]
+},
+{
+  "name": "Moondrop",
+  "phones": [
+    {
+      "name": "Aria 2",
+      "file": "Moondrop/Moondrop Aria2"
+    },
+    {
+      "name": "Blessing 3",
+      "file": "Moondrop/Moondrop Blessing3"
+    },
+    {
+      "name": "Chu 2",
+      "file": "Moondrop/Moondrop Chu2"
+    },        
+    {
+      "name": "x Crinacle Dusk (DSP)",
+      "file": "Moondrop/Moondrop DuskDSP"
+    }, 
+    {
+      "name": "Lan 2 (REF)",
+      "file": "Moondrop/Moondrop Lan2Ref"
+    },
+    {
+      "name": "Marigold",
+      "file": "Moondrop/Moondrop Marigold"
+    },
+    {
+      "name": "Quarks",
+      "file": "Moondrop/Moondrop Quarks"
+    },        
+    {
+      "name": "Rays (DSP)",
+      "file": "Moondrop/Moondrop Rays"
+    },  
+    {
+      "name": "Starfield 2",
+      "file": "Moondrop/Moondrop Starfield2"
+    }
+  ]
+},
+{
+  "name": "QKZ",
+  "phones": [
+    {
+      "name": "x HBB",
+      "file": "QKZ/QKZ xHBB"
+    }
+  ]
+},
+{
+  "name": "Tanchjim",
+  "phones": [
+    {
+      "name": "Bunny",
+      "file": "Tanchjim/Tanchjim Bunny"
+    }
+  ]
+},
+{
+  "name": "Tangzu",
+  "phones": [
+    {
+      "name": "Wan'Er 2",
+      "file": "Tangzu/Tangzu Waner2"
+    }
+  ]
+},
+{
+  "name": "Thieaudio",
+  "phones": [
+    {
+      "name": "Hype 4 Mk 2",
+      "file": "Thieaudio/Thieaudio Hype4M2"
+    }
+  ]
+},
+{
+  "name": "Truthear",
+  "phones": [
+    {
+      "name": "Gate",
+      "file": "Truthear/Truthear Gate"
+    },
+    {
+      "name": "Hexa",
+      "file": "Truthear/Truthear Hexa"
+    },
+    {
+      "name": "Nova",
+      "file": "Truthear/Truthear Nova"
+    },    
+    {
+      "name": "Pure",
+      "file": "Truthear/Truthear Pure"
+    },    
+    {
+      "name": "x Crinacle Zero",
+      "file": "Truthear/Truthear Zero"
+    },
+    {
+      "name": "x Crinacle Zero:BLUE2",
+      "file": ["Truthear/Truthear ZeroBLUE2",
+               "Truthear/Truthear ZeroBlue2_5"],
+      "suffix": ["Regular",
+                 "with 5ohm Adapter"]
+    },
+    {
+      "name": "x Crinacle Zero:RED",
+      "file": ["Truthear/Truthear ZeroRED",
+               "Truthear/Truthear ZeroRED_10"],
+      "suffix": ["Regular",
+                 "with 10ohm Adapter"]
+    } 
+  ]
+},
+{
+  "name": "Xenns",
+  "phones": [
+    {
+      "name": "Tea Pro SE",
+      "file": "Xenns/Xenns TeaProSE"
+    }
+  ]
+},
+{
+  "name": "Ziigaat",
+  "phones": [
+    {
+      "name": "Horizon",
+      "file": "Ziigaat/Ziigaat Horizon"
+    }
+  ]
+},
+{
+  "name": "Demo",
+   "phones": [
+       {"name":["Variations"],
+        "file":["Combo Variant 1",
+                "Combo Variant 2",
+                "Combo Variant 3",
+                "Combo Variant 4"],
+        "suffix":["var1",
+                  "var2",
+                  "var3",
+                  "var4"],
+        "reviewScore":"4",
+        "reviewLink":"https://www.youtube.com/",
+        "shopLink":"https://www.amazon.com/",
+        "price":"¥100"
+       },
+       {"name":["Variations 2"],
+        "file":["Combo Variant 1",
+                "Combo Variant 2",
+                "Combo Variant 3",
+                "Combo Variant 4"],
+        "suffix":["var1",
+                  "var2",
+                  "var3",
+                  "var4"],
+        "reviewScore":"A+",
+        "reviewLink":"https://www.head-fi.org/forums/",
+        "shopLink":"https://www.aliexpress.com/",
+        "price":"$100"
+       }
+   ]
+}
+]

@@ -1,0 +1,98 @@
+
+/* Primary color theme - Nordic Frost Blue */
+:root {
+    /* Accent color shifted to a premium deep ocean blue */
+    --accent-color: hsl(215, 75%, 38%);
+    --accent-color-contrast: hsl(214, 20%, 55%);
+
+    /* CHANGED: Infused the entire background workspace with a soft, clean icy blue tint */
+    --background-color: hsl(214, 32%, 91%);          /* Soft ice-blue backdrop */
+    --background-color-contrast: hsl(214, 24%, 85%); /* Deeper frosted blue for sidebars/menus */
+    --background-color-contrast-more: hsl(214, 16%, 65%);
+    
+    /* CHANGED: The main graph canvas matrix now uses a pristine, luminous glaciers-white tint */
+    --background-color-graph: hsl(214, 45%, 97%);
+    
+    --background-color-inputs: hsl(0, 0%, 100%);
+    
+    /* CHANGED: Deep midnight-blue font for razor-sharp reading clarity against ice tones */
+    --font-color-primary: hsl(222, 47%, 12%);
+    --font-color-secondary: hsl(0, 0%, 100%);
+    --font-color-inputs: hsl(214, 16%, 45%);
+    
+    --font-primary: 'Open Sans', sans-serif;
+    --font-secondary: monospace;
+    
+    --scrollbar-color: 255,255,255;
+    --scrollbar-accent: 0,0,0;
+    
+    --header-color: hsl(222, 35%, 15%);
+    --header-links-color: hsl(0, 0%, 100%);
+    --header-menu-icon-color: hsl(0, 0%, 100%);
+    
+    --logo-filter: invert(1.0);
+    --svg-filter: none;
+}
+
+body.theme-dark {
+    /* Accent color shifted to a glowing, high-contrast crisp neon-glacier blue */
+    --accent-color: hsl(204, 95%, 68%);
+    --accent-color-contrast: hsl(210, 20%, 45%);
+
+    /* CHANGED: Infused the dark environment with deep, dark sub-zero ocean tones */
+    --background-color: hsl(222, 28%, 8%);            /* Deep arctic midnight background */
+    --background-color-contrast: hsl(222, 24%, 13%);   /* Frosted charcoal-blue sidebars/menus */
+    --background-color-contrast-more: hsl(218, 16%, 32%);
+    
+    /* CHANGED: The inner canvas matrix window drops to a striking dark iceberg core depth */
+    --background-color-graph: hsl(222, 26%, 10%);
+    
+    --background-color-inputs: hsl(222, 24%, 13%);
+
+    /* CHANGED: Frosted off-white font for sharp, glare-free reading clarity at night */
+    --font-color-primary: hsl(210, 30%, 88%);
+    --font-color-secondary: hsl(222, 28%, 8%);
+    --font-color-inputs: hsl(214, 15%, 65%);
+
+    --font-primary: 'Inter', sans-serif;
+    --font-secondary: monospace;
+
+    --scrollbar-color: 13,20,33;
+    --scrollbar-accent: 173,208,245;
+
+    --header-color: hsl(222, 35%, 6%);
+    --header-links-color: hsl(0, 0%, 100%);
+    --header-menu-icon-color: hsl(0, 0%, 100%);
+    
+    --logo-filter: invert(1.0);
+    --svg-filter: invert(0.9) hue-rotate(180deg); /* Adjusts underlying icon layouts cleanly */
+}
+
+body.theme-contrast {
+    --accent-color: hsl(0, 0%, 0%);
+    --accent-color-contrast: hsl(0, 0%, 0%);
+
+    --background-color: hsl(0, 0%, 100%);
+    --background-color-contrast: hsl(0, 0%, 0%);
+    --background-color-contrast-more: hsl(0, 0%, 0%);
+    --background-color-graph: hsl(0, 0%, 100%);
+    
+    --background-color-inputs: hsl(0, 0%, 100%);
+    
+    --font-color-primary: hsl(0, 0%, 0%);
+    --font-color-secondary: hsl(0, 0%, 100%);
+    --font-color-inputs: hsl(0, 0%, 0%);
+    
+    --font-primary: 'Open Sans', sans-serif;
+    --font-secondary: monospace;
+    
+    --scrollbar-color: 255,255,255;
+    --scrollbar-accent: 0,0,0;
+    
+    --header-color: hsl(215, 20%, 10%);
+    --header-links-color: hsl(0, 0%, 100%);
+    --header-menu-icon-color: hsl(0, 0%, 100%);
+    
+    --logo-filter: invert(1.0);
+    --svg-filter: none;
+}
