@@ -259,6 +259,10 @@ let headerLogoText = "WaitWhat.Audio",
     headerLogoImgUrl = "",
     headerLinks = [
     {
+        name: '<div style="margin-left: auto;"><i class="fas fa-home"></i></div>',
+        url: "https://waitwhataudio.com"
+    },
+    {
         name: '<i class="fab fa-instagram"></i>',  // Injects the Instagram icon graphic
         url: "https://instagram.com/waitwhat.audio"
     }
