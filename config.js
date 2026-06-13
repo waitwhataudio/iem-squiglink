@@ -13,7 +13,7 @@ const init_phones = ["BKF"],            // Optional. Which graphs to display on 
       alt_header_new_tab = true,                   // Clicking alt_header links opens in new tab
       alt_tutorial = true,                          // Display a configurable frequency response guide below the graph
       alt_augment = true,                          // Display augment card in phone list, e.g. review sore, shop link
-      site_url = 'graph.html',                      // URL of your graph "homepage"
+      site_url = 'https://waitwhataudio.com',      // URL of your graph "homepage"
       share_url = true,                             // If true, enables shareable URLs
       watermark_text = "WaitWhat.Audio",                 // Optional. Watermark appears behind graphs
       watermark_image_url = "",   // Optional. If image file is in same directory as config, can be just the filename
@@ -256,12 +256,8 @@ setupGraphAnalytics();
 
 // If alt_header is enabled, these are the items added to the header
 let headerLogoText = "WaitWhat.Audio",
-    headerLogoImgUrl = "",
+    headerLogoImgUrl = "wwa-icon.png",
     headerLinks = [
-    {
-        name: '<div style="margin-left: auto;"><i class="fas fa-home"></i></div>',
-        url: "https://waitwhataudio.com"
-    },
     {
         name: '<i class="fab fa-instagram"></i>',  // Injects the Instagram icon graphic
         url: "https://instagram.com/waitwhat.audio"
