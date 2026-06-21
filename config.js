@@ -269,37 +269,37 @@ let tutorialDefinitions = [
     {
         name: 'Sub bass',
         width: '20.1%',
-        description: 'Lorem ipsum.'
+        description: '20Hz - 60Hz. The deepest rumble, visceral vibrations, and physical impact felt in electronic music and movies.'
     },
     {
         name: 'Mid bass',
         width: '19.2%',
-        description: 'Lorem ipsum.'
+        description: '60Hz - 250Hz. The punch, thud, and body of bass guitars, kick drums, and the lower warmth of male vocals.'
     },
     {
         name: 'Lower midrange',
         width: '17.4%',
-        description: 'Lorem ipsum.'
+        description: '250Hz - 1kHz. The foundational thickness and weight of instruments, male vocals, and the lower notes of pianos.'
     },
     {
         name: 'Upper midrange',
         width: "20%",
-        description: 'Lorem ipsum.'
+        description: '1kHz - 4kHz. The presence of female vocals, string instruments, and electric guitars. Too much can sound shouty.'
     },
     {
         name: 'Presence region',
         width: '6%',
-        description: 'Lorem ipsum.'
+        description: '4kHz - 6kHz. Affects the overall definition and clarity of vocals and instruments. Too much causes listening fatigue.'
     },
     {
         name: 'Mid treble',
         width: '7.3%',
-        description: 'Lorem ipsum.'
+        description: '6kHz - 10kHz. The crispness and sharp click of drum cymbals. High energy here can introduce harshness and sibilance ("S" sounds).'
     },
     {
         name: 'Air',
         width: '10%',
-        description: 'Lorem ipsum.'
+        description: '10kHz - 20kHz. Micro-details, breathing space, and the expansive background soundstage that gives music life.'
     }
 ]
 // Configure paths to extraEQ plugins here
