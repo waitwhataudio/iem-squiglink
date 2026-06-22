@@ -20,7 +20,7 @@ const init_phones = ["BKF"],            // Optional. Which graphs to display on 
       rig_description = "IEC 60318-4 \"711\" Coupler",            // Optional. Labels the graph with a description of the rig used to make the measurement, e.g. "clone IEC 711"
       page_title = "WaitWhat.Audio",                     // Optional. Appended to the page title if share URLs are enabled
       page_description = "View and compare frequency response graphs for earphones",
-      accessories = false,                          // If true, displays specified HTML at the bottom of the page. Configure further below
+      accessories = true,                          // If true, displays specified HTML at the bottom of the page. Configure further below
       externalLinksBar = true,                      // If true, displays row of pill-shaped links at the bottom of the page. Configure further below
       restricted = false,                           // Enables restricted mode. More restricted options below
       expandable = false,                           // Enables button to expand iframe over the top of the parent page
@@ -42,25 +42,33 @@ const init_phones = ["BKF"],            // Optional. Which graphs to display on 
       extraToneGeneratorEnabled = true;             // Enable tone generator function
 
 // Specify which targets to display
-
-// Corrected Multi-Format Test Config Matrix
 const targets = [
+    {   
+        type: "Reference",
+        files: ["JM-1 - 10db Tilt", "5128DF - 10db Tilt"]
+    },
     { 
         type: "Neutral",    
-        files: ["711 5128 delta", "IEF Preference 2025", "Diffuse Field", "Etymotic", "Free Field", "Innerfidelity ID"] 
+        files: ["Diffuse Field", "Etymotic", "Free Field", "Innerfidelity ID"] 
     },
     { 
         type: "Preference", 
         // We use string identifiers for the file array list, then intercept 
         // the parameters down inside your main script framework loop.
-        files: ["Harman"] 
+        files: ["Harman","Rtings","Sonarworks"] 
     }
 ];
 
 // Define your directory-level system pointer parameters separately
 const TARGET_DIR = "_targets/";
 
-
+// Change it to this:
+//const default_bass_shelf = 0,
+  //    default_tilt = 0,
+  //    default_ear = 0,
+  //    default_treble = 0,
+  //    default_DF_name = "Diffuse Field", // 👈 Set this to match one of your target curves precisely
+  //    tiltableTargets = ["Diffuse Field", "711 5128 delta", "IEF Preference 2025"]; // 👈 Add names here to authorize sliders
 
 // *************************************************************
 // Functions to support config options set above; probably don't need to change these
