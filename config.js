@@ -45,17 +45,15 @@ const init_phones = ["BKF"],            // Optional. Which graphs to display on 
 const targets = [
     {   
         type: "Reference",
-        files: ["JM-1 - 10db Tilt", "5128DF - 10db Tilt"]
+        files: ["JM-1 Δ", "5128DF - 10db Tilt","IEF Preference 2025"]
+    },
+    { 
+        type: "Preference", 
+        files: ["Harman","Rtings","Sonarworks"] 
     },
     { 
         type: "Neutral",    
         files: ["Diffuse Field", "Etymotic", "Free Field", "Innerfidelity ID"] 
-    },
-    { 
-        type: "Preference", 
-        // We use string identifiers for the file array list, then intercept 
-        // the parameters down inside your main script framework loop.
-        files: ["Harman","Rtings","Sonarworks"] 
     }
 ];
 
