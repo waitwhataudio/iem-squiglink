@@ -182,6 +182,10 @@
       "file": "Moondrop/Moondrop Rays"
     },  
     {
+      "name": "Space Travel 2 (TWS)",
+      "file": "Moondrop/Moondrop Space Travel 2"
+    },
+    {
       "name": "Starfield 2",
       "file": "Moondrop/Moondrop Starfield2"
     }
@@ -193,6 +197,15 @@
     {
       "name": "x HBB",
       "file": "QKZ/QKZ xHBB"
+    }
+  ]
+},
+{
+  "name": "Sony",
+  "phones": [
+    {
+      "name": "WF-1000XM5",
+      "file": "Sony/Sony WF-1000XM5"
     }
   ]
 },
