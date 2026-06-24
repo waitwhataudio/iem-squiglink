@@ -70,7 +70,7 @@
   "phones": [
     {
       "name": "Mega5est 7th Anniversary",
-      "file": "Hisenior/Hisenior Mega5EST 7th"
+      "file": "Hisenior/Hisenior Mega5EST 7th Anniversary"
     }
   ]
 },
@@ -121,8 +121,8 @@
       "file": "KZ/KZ AS24 Pro"
     },
     {
-      "name": "Castor Pro Bass Edition",
-      "file": "KZ/KZ CastorProBE 0000"
+      "name": "Castor Pro Bass Edition", 
+      "file": "KZ/KZ CastorProBass"
     },
     {
       "name": "PRX",
@@ -134,15 +134,15 @@
     },
     {
       "name": "Vader Pro",
-      "file": "KZ/KZ VaderPro 0000"
+      "file": "KZ/KZ VaderPro"
     },           
     {
       "name": "ZAT",
-      "file": "KZ/KZ ZAT 0000"
+      "file": "KZ/KZ ZAT"
     },
     {
       "name": "ZS10 Pro 2",
-      "file": "KZ/KZ ZS10Pro2 0000"
+      "file": "KZ/KZ ZS10Pro2"
     }     
   ]
 },
@@ -163,7 +163,7 @@
     },        
     {
       "name": "x Crinacle Dusk (DSP)",
-      "file": "Moondrop/Moondrop DuskDSP"
+      "file": "Moondrop/Moondrop Dusk"
     }, 
     {
       "name": "Lan 2 (REF)",
@@ -174,7 +174,7 @@
       "file": "Moondrop/Moondrop Marigold"
     },
     {
-      "name": "Quarks",
+      "name": "Quarks (DSP)",
       "file": "Moondrop/Moondrop Quarks"
     },        
     {
@@ -223,7 +223,7 @@
   "phones": [
     {
       "name": "Wan'Er 2",
-      "file": "Tangzu/Tangzu Waner2"
+      "file": "Tangzu/Tangzu WanerSG2"
     }
   ]
 },
@@ -232,7 +232,7 @@
   "phones": [
     {
       "name": "Hype 4 Mk 2",
-      "file": "Thieaudio/Thieaudio Hype4M2"
+      "file": "Thieaudio/Thieaudio Hype 4 Mk ii"
     }
   ]
 },
@@ -279,8 +279,8 @@
   "name": "Xenns",
   "phones": [
     {
-      "name": "Tea Pro SE",
-      "file": "Xenns/Xenns TeaProSE"
+      "name": "Mangrid Tea Pro SE",
+      "file": "Xenns/Xenns Mangrid TeaProSE"
     }
   ]
 },
