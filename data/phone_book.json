@@ -146,6 +146,14 @@
     }     
   ]
 },
+{ "name": "Miniso",
+  "phones:": [
+    {
+      "name": "HF236",
+      "file": "Miniso/ Miniso HF236"
+    }
+  ]
+},
 {
   "name": "Moondrop",
   "phones": [
