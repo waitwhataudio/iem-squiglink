@@ -146,8 +146,9 @@
     }     
   ]
 },
-{ "name": "Miniso",
-  "phones:": [
+{
+  "name": "Miniso",
+  "phones": [
     {
       "name": "HF236",
       "file": "Miniso/Miniso HF236"
